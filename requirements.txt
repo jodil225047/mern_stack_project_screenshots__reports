@@ -1,0 +1,59 @@
+PROJECT REQUIREMENTS — DRIVEEASE
+
+Project Name:
+DriveEase — Online Car Rental Management System
+
+Project Description:
+DriveEase is a web-based car rental application that allows users to browse available cars, log in, and use booking features. Administrators can manage car listings and bookings.
+
+TECHNOLOGIES USED:
+- Frontend: React.js, Vite, JavaScript
+- Backend: Node.js, Express.js
+- Database: MongoDB Atlas
+- Authentication: JSON Web Token (JWT)
+- Frontend Hosting: Vercel
+- Backend Hosting: Render
+- Version Control: Git and GitHub
+
+FUNCTIONAL REQUIREMENTS:
+1. Users can register and log in.
+2. Users can view available cars and their details.
+3. The system displays car name, brand, category, year, seating capacity, transmission, fuel type, daily rental price, image, description, and availability.
+4. Users can access the car booking features.
+5. Administrators can add new car listings.
+6. Administrators can update existing car details.
+7. Administrators can delete car listings.
+8. Administrators can view bookings and update booking status.
+9. The frontend communicates with the backend through REST APIs.
+10. The system stores application data in MongoDB Atlas.
+
+SYSTEM REQUIREMENTS:
+- A computer or mobile device
+- A modern web browser
+- Internet connection
+- Node.js and npm for local development
+- MongoDB Atlas account
+- Git and GitHub account
+
+DEPLOYMENT DETAILS:
+Frontend URL:
+https://drive-ease-weld.vercel.app/
+
+Backend URL:
+https://driveease-api-d1q6.onrender.com/
+
+API Base URL:
+https://driveease-api-d1q6.onrender.com/api
+
+ENVIRONMENT VARIABLES:
+Frontend:
+VITE_API_URL=https://driveease-api-d1q6.onrender.com/api
+
+Backend:
+CLIENT_URL=https://drive-ease-weld.vercel.app
+
+SECURITY REQUIREMENTS:
+- Authentication must be handled by the backend.
+- Administrative operations should be restricted to authorized users.
+- MongoDB credentials and JWT secrets must remain private.
+- Secret environment variables must not be exposed in frontend code or committed to GitHub.
